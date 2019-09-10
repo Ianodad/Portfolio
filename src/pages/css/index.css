@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Carter+One|Lilita+One|Passion+One|Rammetto+One|Share+Tech+Mono|Space+Mono&display=swap');
+
+.main {}
+
+#under-text {
+    color: red;
+    font-size: 1em;
+}
+
+.home-tag h3 {
+    font-family: 'Carter One', cursive;
+}
+
+h3#line1 {
+    color: white;
+    font-size: 4em;
+}
+
+h3#line2 {
+    color: white;
+    font-size: 3.5em;
+}
+
+h3#line3 {
+    color: white;
+    font-size: 3em;
+}
+
+h4#under-text {
+    font-family: 'Space Mono', monospace;
+}
+
+h1#large-text {
+    font-family: 'Passion One', cursive;
+    font-size: 17em;
+}

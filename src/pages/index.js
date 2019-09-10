@@ -1,7 +1,8 @@
 import React from "react"
+import Logo from '../components/logoanimate';
+
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import './css/index.css';
 
@@ -62,7 +63,7 @@ const IndexPage = () => (
 				</div>
 				<div className="other col-md-6 my-auto mx-auto" style={styles.zoomIn}>
 					<div className="home mx-auto col-md-6" style={{ marginTop: '16em', maxWidth: '100%' }}>
-						{/* <Logo /> */}
+						<Logo />
 					</div>
 				</div>
 			</div>

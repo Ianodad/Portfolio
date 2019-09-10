@@ -1,0 +1,46 @@
+/* .sidemenu {
+    width: 50px;
+} */
+
+.sidenav a {
+    font-size: 12px;
+}
+
+.sidenav li {
+    margin-left: -30px;
+}
+
+.sidenav {
+    padding-top: 260px;
+}
+
+/* .side-bar {
+	left: -120px;
+} */
+
+.social {
+    position: fixed;
+    left: -41.5px;
+    bottom: 0px;
+}
+
+
+.fa .fa-twitter {
+    color: green;
+    background-color: green;
+}
+
+.toggle {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.imageName {
+    transition-duration: 1.2s;
+}
+
+.menuText {
+    transition-duration: 1.2s;
+}

@@ -620,3 +620,52 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+/* Custom CSS */
+.header {
+  display: none;
+
+}
+
+.main-right {
+  height: 100%;
+  background-color: #0d1121;
+  min-height: 970px;
+  background-position: 50% 50%;
+}
+
+.sidemenu {
+  background-color: #060810;
+}
+
+.header {
+  background-color: #060810;
+}
+
+.h1 {
+  color: red;
+
+}
+
+.h2 {
+  color: white
+}
+
+.p1 {
+  color: aliceblue
+}
+
+/* responsive media */
+@media screen and (max-width: 992px) {
+  .header {
+    display: block;
+
+  }
+
+  .sidemenu {
+    display: none;
+  }
+}
+
+/* end */

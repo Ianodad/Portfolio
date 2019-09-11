@@ -1,13 +1,14 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/seo";
+import './css/contact.css';
+
 
 const  Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Contact</h1>
-
   </Layout>
 )
 

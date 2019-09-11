@@ -10,7 +10,7 @@ import Gallery from '../components/gallery'
 const Gallerypage = () => (
   <Layout>
     <SEO title="Photography" />
-    <div className="container-fluid gallery row">
+    <div className="container-fluid gallery row my-4">
 				<div className="align-center mx-auto">
 					 <Gallery/>
 				</div>

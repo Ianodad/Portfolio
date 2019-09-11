@@ -2,13 +2,14 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Work from '../components/workImage';
 
-const Work = () => (
+
+const Workpage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Work</h1>
-
+    <SEO title="Portfolio" />
+			 <Work/>
   </Layout>
 )
 
-export default Work
+export default Workpage

@@ -9,7 +9,6 @@ import { linkedin } from 'react-icons-kit/fa/linkedin';
 
 import { fadeIn } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
-import { Location } from '@reach/router';
 
 import Img from 'gatsby-image';
 

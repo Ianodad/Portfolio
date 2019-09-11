@@ -2,13 +2,21 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import './css/gallery.css';
+import Gallery from '../components/gallery'
 
-const Gallery = () => (
+
+
+const Gallerypage = () => (
   <Layout>
-    <SEO title="Gallery" />
-    <h1>Gallery</h1>
+    <SEO title="Photography" />
+    <div className="container-fluid gallery row">
+				<div className="align-center mx-auto">
+					 <Gallery/>
+				</div>
+			</div>
 
   </Layout>
 )
 
-export default Gallery
+export default Gallerypage

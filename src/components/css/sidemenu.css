@@ -22,6 +22,7 @@
     position: fixed;
     left: -41.5px;
     bottom: 0px;
+    width: inherit;
 }
 
 

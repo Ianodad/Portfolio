@@ -1,9 +1,12 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import {
+	useStaticQuery,
+	graphql
+} from 'gatsby';
 import Workout from './common/workout';
 
 const Work = () => {
-	const data = useStaticQuery(graphql`
+	const data = useStaticQuery(graphql `
 		query {
 			anime: file(relativePath: { eq: "work/anime wallpaper.png" }) {
 				childImageSharp {
@@ -33,8 +36,15 @@ const Work = () => {
 					}
 				}
 			}
-			techit: file(relativePath: {
-				eq: "work/techit.png"
+			techit: file(relativePath: { eq: "work/techit.png" }) {
+				childImageSharp {
+					fluid(maxWidth: 512, quality: 100) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			},
+			portfolio: file(relativePath: {
+				eq: "work/portfolio.png"
 			}) {
 				childImageSharp {
 					fluid(maxWidth: 512, quality: 100) {
@@ -44,8 +54,7 @@ const Work = () => {
 			}
 		}
 	`);
-	const images = [
-		{
+	const images = [{
 			title: 'Instargram',
 			image: data.instagram.childImageSharp.fluid,
 			code: 'https://github.com/Ianodad/Instargram',
@@ -74,12 +83,24 @@ const Work = () => {
 			website: 'http://ianodad.github.io/Tech_IT-e_commerce-/',
 			info: 'This is e-commerce based technology'
 
+		},
+		{
+			title: 'Portfolio',
+			image: data.portfolio.childImageSharp.fluid,
+			code: 'https://github.com/Ianodad/Portfolio',
+			website: 'https://portfolio.ianodad.now.sh/',
+			info: 'This is my personal portfolio page built on gatsbyjs'
+
 		}
 	];
-	return (
-		<div className="work mx-0 px-0">
-			<Workout images={images}/>
-		</div>
+	return ( <
+		div className = "work mx-0 px-0" >
+		<
+		Workout images = {
+			images
+		}
+		/> <
+		/div>
 	);
 };
 

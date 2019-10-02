@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import './css/index.css';
 
+import Headline from "../components/headline"
+
 import { slideInLeft, slideInUp, zoomIn } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 
@@ -45,6 +47,7 @@ const IndexPage = () => (
 						<div className="home-text">
 							<h3 className="my-1" id="line1" style={styles.slideIn}>
 								HI
+								<Headline hi={'HI'}/>
 							</h3>
 							<h3 className="my-1" id="line2" style={styles.slideIn2}>
 								I'M IAN,
@@ -62,7 +65,7 @@ const IndexPage = () => (
 					</div>
 				</div>
 				<div className="other col-md-6 my-auto mx-auto" style={styles.zoomIn}>
-					<div className="home mx-auto col-md-6" style={{ marginTop: '16em', maxWidth: '100%' }}>
+					<div className="home mx-auto col-md-6" style={{ marginTop: '10em', maxWidth: '100%' }}>
 						<Logo />
 					</div>
 				</div>

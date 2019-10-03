@@ -16,13 +16,13 @@ const About = () => (
 				height: "970px",
 			}}
 		>
-			<div className="col-md-12 col-12 col-lg-12 col-xl-6 my-auto">
-				<div className="about mx-auto col-md-10 col-lg-10 col-sm-12">
-					<div className="about-header mb-4 pt-4 d-flex" style={{ marginBottom:"10em" }} >
+			<div className="about-meout col-md-12 col-12 col-lg-12 col-xl-6 col-sm-12 my-auto">
+				<div className="about mx-auto col-md-10 col-lg-10 col-sm-12 col-12">
+					<div className="about-header d-flex" style={{ paddingBottom:"2em" }} >
 						<div>
 							<Headline id="abouth" name={'abouth'} headln={'ABOUT'} data={'o'} />
 						</div>
-						<div style={{ marginLeft: '22em' }}>
+						<div  style={{ marginLeft: '22em' }}>
 							<Headline id="me" name={'me'} headln={'ME'} data={'m'} />
 						</div>
 					</div>

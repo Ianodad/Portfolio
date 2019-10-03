@@ -13,10 +13,12 @@ import Headline from "../components/headline"
 const Skills = () => (
 	<Layout>
   <SEO title="Skills" />
-  <div className="container-fluid my-skills row" style={{ height: "970px" }}>
+  <div className="container-fluid my-skills row">
+  <div className="imageskills">
     <ImageSkills />
-    <div className="col-md-8 col-lg-6 col-sm-12 mx-auto">
-      <div className="skills  col-md-10 mx-auto d-flex flex-column" style={{ marginTop: "14em" }}>
+  </div>
+    <div className="skillsout col-md-8 col-lg-6 col-sm-12 mx-auto">
+      <div className="skills d-flex flex-column" style={{ marginTop: "14em" }}>
         <div className="skills-header mb-2 pb-3" style={{marginLeft:"-1em"}} >
           <div className="skills-header mb-2 pb-2 pr-4 mr-4">
             <Headline id="exp" name={"exp"} headln={"EXPERINCE"} data={"x"} />

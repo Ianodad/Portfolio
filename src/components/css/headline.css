@@ -283,7 +283,7 @@
 /* About headline */
 .abouth {
     font-family: 'CoreCircus', sans-serif;
-    font-size: 5vw;
+    font-size: 5em;
     /* text-align: center; */
     line-height: 1;
     margin: 0;
@@ -343,7 +343,7 @@
 /* ME headline */
 .me {
     font-family: 'CoreCircus', sans-serif;
-    font-size: 5vw;
+    font-size: 5em;
     /* text-align: center; */
     line-height: 1;
     margin: 0;
@@ -403,7 +403,7 @@
 /* Experience headline */
 .exp {
     font-family: 'CoreCircus', sans-serif;
-    font-size: 5vw;
+    font-size: 5em;
     /* text-align: center; */
     line-height: 1;
     margin: 0;
@@ -463,7 +463,7 @@
 /* project headline */
 .project {
     font-family: 'CoreCircus', sans-serif;
-    font-size: 5vw;
+    font-size: 5em;
     /* text-align: center; */
     line-height: 1;
     margin: 0;
@@ -523,7 +523,7 @@
 /* Contact headline */
 .contactme {
     font-family: 'CoreCircus', sans-serif;
-    font-size: 3vw;
+    font-size: 3em;
     /* text-align: center; */
     line-height: 1;
     margin: 0;
@@ -639,14 +639,31 @@
         display: block;
     }
 
-    /* .abouth,
+    .abouth,
     .me,
     .exp,
     .project,
-    .contactme {
-        font-size: 5vw;
-    }  */
+     {
+        font-size: 4em;
+    }
 
+    .me {
+        margin-left: -1.2em;
+    }
+
+    /* .me{
+        display: none;
+    } */
+    .project {
+        margin-left: -12vw;
+    }
+    .contactme{
+        font-size: 3em;
+    }
+
+    .contactme {
+        margin-left: -0.4em;
+    }
 
 }
 
@@ -692,6 +709,21 @@
     #devshow {
         display: block;
     }
+
+    .abouth,
+    .me,
+    .exp,
+    .project,
+    .contactme {
+        font-size: 3.4em;
+    }
+
+    .project {
+        margin-left: -45vw;
+    }
+    .contactme {
+        font-size: 2em;
+    }
 }
 
 @media only screen and (min-width:321px) and (max-width:460px) {
@@ -699,17 +731,19 @@
         font-size: 5em;
         margin-left: -0.4em;
     }
-    
+
 
     .im,
     .ian {
         font-size: 4em;
     }
-    .im{
+
+    .im {
         margin-left: -0.5em;
     }
+
     /* margin space */
-    .ian{
+    .ian {
         margin-left: -1.1em;
     }
 
@@ -717,18 +751,49 @@
     .dev {
         font-size: 3em;
     }
-    .full{
+
+    .full {
         margin-left: -0.7em;
     }
-    .dev{
+
+    .dev {
         margin-left: -5.4em;
     }
 
-    #devhide{
+    #devhide {
         display: none;
     }
+
     #devshow {
-        display:block;
+        display: block;
+    }
+
+    .abouth,
+    .me,
+    .exp,
+    .project,
+    .contactme {
+        font-size: 3.4em;
+    }
+
+    .me {
+        margin-left: -1.2em;
+    }
+
+    .me {
+        display: none;
+    }
+
+    .project {
+        margin-left: -32vw;
+    }
+
+    .contactme {
+        font-size: 2.5em;
+    }
+
+    .contactme {
+        margin-left: -0.8em;
     }
 }
 

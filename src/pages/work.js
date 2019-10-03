@@ -11,7 +11,7 @@ const proj = "PROJECT "+"& "+"WORKS"
 const Workpage = () => (
 	<Layout>
   <SEO title="Portfolio" />
-  <div className="container-fluid work mt-2 pt-4 d-flex flex-column text-center">
+  <div className="container-fluid work mt-2 pt-4 d-flex flex-column">
     <div className="work-headline d-block d-flex flex-row mb-4 pb-4" style={{marginLeft:"30vw"}}>
         <Headline
           id="project"

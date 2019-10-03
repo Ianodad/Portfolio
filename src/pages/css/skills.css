@@ -1,0 +1,33 @@
+@media screen and (max-width: 320px) {
+
+    .skills {
+        margin-top: 20em;
+        margin-left: -25px;
+    }
+
+    .skills-content {
+        width: 250px;
+    }
+
+    .imageskills {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:460px) {
+
+
+    .skills {
+        margin-top: 10em;
+        margin-left: -25px;
+    }
+
+    .skills-content {
+        width: 250px;
+    }
+
+    .imageskills {
+        display: none;
+    }
+
+}

@@ -6,6 +6,10 @@ import ImageSkills from '../components/imageSkills';
 
 import './css/skills.css';
 
+
+import Headline from "../components/headline"
+
+
 const Skills = () => (
 	<Layout>
 		<SEO title="Skills" />
@@ -14,25 +18,22 @@ const Skills = () => (
 			<div className="col-md-8 col-lg-6 col-sm-12 mx-auto">
 				<div className="skills  col-md-10 mx-auto" style={{ marginTop: '14em' }}>
 					<div className="skills-header my-2">
-						<span className="h1">S</span>
-						<span className="h1 pl-1">K</span>
-						<span className="h1 pl-1">I</span>
-						<span className="h1 pl-1">L</span>
-						<span className="h1 pl-1">L</span>
-						<span className="h1 pl-1">S</span>
-						<span className="px-1"> </span>
-						<span className="h1 pl-1">&</span>
-						<span className="px-1"> </span>
-						<span className="h1">E</span>
-						<span className="h1 pl-1">X</span>
-						<span className="h1 pl-1">P</span>
-						<span className="h1 pl-1">E</span>
-						<span className="h1 pl-1">R</span>
-						<span className="h1 pl-1">I</span>
-						<span className="h1">E</span>
-						<span className="h1 pl-1">N</span>
-						<span className="h1 pl-1">C</span>
-						<span className="h1 pl-1">E</span>
+					<div>
+					<Headline
+                    id="exp"
+                    name={"exp"}
+                    headln={"EXPERINCE"}
+                    data={"x"}
+                  />
+					</div>
+					{/* <div style={{marginLeft:"22em"}}>
+					<Headline
+                    id="me"
+                    name={"me"}
+                    headln={"ME"}
+                    data={"m"}
+                  />
+					</div> */}
 					</div>
 					<div className="skills-content h-100">
 						<p className="p1">

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import './css/blog.css';
 
+import Headline from "../components/headline"
 
 const Blog = () => (
   <Layout>

@@ -95,3 +95,17 @@ body {
     width: 120%;
     height: 160%;
 }
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    .homelogo svg {
+        height: 100%;
+        
+    }
+    .svgg{
+        width: 500px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+}

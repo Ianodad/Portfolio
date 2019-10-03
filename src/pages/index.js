@@ -88,8 +88,8 @@ const IndexPage = () => (
                         id="ian"
                         style={styles.slideIn}
                         name={"ian"}
-                        headln={"IAN"}
-                        data={"n"}
+                        headln={"IAN,"}
+                        data={"n,"}
                       />
                     </div>
                   </div>
@@ -107,7 +107,22 @@ const IndexPage = () => (
                         data={"f"}
                       />
                     </div>
-                    <div style={{ marginLeft: "20em" }}>
+                    <div id="devhide" style={{ marginLeft: "19.5em" }}>
+                      <Headline
+                        id="dev"
+                        style={styles.slideIn}
+                        name={"dev"}
+                        headln={"DEVELOPER"}
+                        data={"d"}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="my-3 py-2" id="devshow" style={{ marginLeft: "14.7em" }}>
+                <div className="mt-3 pt-2" id="line3">
+                  <div className="name d-flex flex-row">
+                    <div className="devhide">
                       <Headline
                         id="dev"
                         style={styles.slideIn}

@@ -32,7 +32,7 @@ const Image = () => {
 
 
 	return (
-		<div>
+		<div className="container-fluid">
 			<ImageIt skills={particle} />
 		</div>
 	);

@@ -15,7 +15,7 @@ const Logoanimate = () => {
 				width: '40em',
 				height: '1em'
 			}}>
-        <svg viewBox="0 0 800 400">
+        <svg className ="svgg" viewBox="0 0 700 500">
           <symbol id="s-text"><text textAnchor="middle" x="50%" y="50%" dy=".35em">iN</text></symbol>
           <use className="text" xlinkHref="#s-text" /><use className="text" xlinkHref="#s-text" />
           <use className="text" xlinkHref="#s-text" /><use className="text" xlinkHref="#s-text" />

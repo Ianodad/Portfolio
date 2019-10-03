@@ -13,13 +13,12 @@ const About = () => (
 		<div
 			className="container-fluid about-me row"
 			style={{
-				marginTop: '14em',
-				top: '50%'
+				height: "970px",
 			}}
 		>
 			<div className="col-md-12 col-12 col-lg-12 col-xl-6 my-auto">
-				<div className="about mx-auto col-md-10 col-lg-10">
-					<div className="about-header my-4 d-flex" style={{ height: '50px' }}>
+				<div className="about mx-auto col-md-10 col-lg-10 col-sm-12">
+					<div className="about-header mb-4 pt-4 d-flex" style={{ marginBottom:"10em" }} >
 						<div>
 							<Headline id="abouth" name={'abouth'} headln={'ABOUT'} data={'o'} />
 						</div>
@@ -27,7 +26,7 @@ const About = () => (
 							<Headline id="me" name={'me'} headln={'ME'} data={'m'} />
 						</div>
 					</div>
-					<div className="about-content">
+					<div className="about-content mt-4 pt-4">
 						<p className="p1">
 							I 'm a Fullstack Developer and a graphic designer who has a knack for photography and great
 							design.

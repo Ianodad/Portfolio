@@ -12,15 +12,15 @@ const Workpage = () => (
 	<Layout>
   <SEO title="Portfolio" />
   <div className="container-fluid work mt-2 pt-4 d-flex flex-column">
-    <div className="work-headline d-block d-flex flex-row mb-4 pb-4" style={{marginLeft:"30vw", marginTop:'5em'}}>
+    {/* <div className="work-headline d-block d-flex flex-row mb-4 pb-4" style={{marginLeft:"30vw", marginTop:'5em'}}>
         <Headline
           id="project"
           name={"project"}
           headln={"PROJECTS"}
           data={"j"}
         />
-    </div>
-    <div className="workf mt-4 pt-4">
+    </div> */}
+    <div className="workf mt-2 pt-2">
       <Work className="d-block" />
     </div>
   </div>

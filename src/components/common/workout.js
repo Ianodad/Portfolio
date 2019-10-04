@@ -9,19 +9,19 @@ const Workout = (props) => {
 			{props.images.map((image) => {
 				return (
 					<div className="card mx-4 my-4" >
-						<div className="img">
+						<div className="img overflow-hidden">
 							<Img fluid={image.image} />
 						</div>
 						<div className="info">
 							<h1>{image.title}</h1>
 							<p>{image.info}</p>
-							<div className="buttons d-flex flex-row">
-								<button className="px-2 mx-auto w-50">
+							<div className="buttons d-flex flex-column">
+								<button className="px-2 pt-2 mx-auto w-60">
 									<a href={image.code} target="_blank">
 										Code
 									</a>
 								</button>
-								<button className="px-2 mx-auto w-50">
+								<button className="px-2  pt-2 mx-auto w-60">
 									<a href={image.website} target="_blank">
 										Website
 									</a>

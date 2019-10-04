@@ -16,13 +16,13 @@ const Workout = (props) => {
 							<h1>{image.title}</h1>
 							<p>{image.info}</p>
 							<div className="buttons d-flex flex-column">
-								<button className="px-2 pt-2 mx-auto w-60">
-									<a href={image.code} target="_blank">
+								<button className="px-2 mb-1 mx-auto w-100 code-btn">
+									<a className="code-link" href={image.code} target="_blank">
 										Code
 									</a>
 								</button>
-								<button className="px-2  pt-2 mx-auto w-60">
-									<a href={image.website} target="_blank">
+								<button className="px-2  mt-1 mx-auto w-100 web-btn">
+									<a   className="web-link" href={image.website} target="_blank">
 										Website
 									</a>
 								</button>

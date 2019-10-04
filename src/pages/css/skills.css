@@ -1,8 +1,12 @@
 @media screen and (max-width: 320px) {
 
-    .skills {
-        margin-top: 20em;
+    .skills{
         margin-left: -25px;
+
+    }
+
+    .skillsout {
+        margin-top: -7em;
     }
 
     .skills-content {
@@ -17,8 +21,10 @@
 @media only screen and (min-width:321px) and (max-width:460px) {
 
 
+    .skillsout {
+        margin-top: -7em;
+    }
     .skills {
-        margin-top: 10em;
         margin-left: -25px;
     }
 
@@ -30,4 +36,11 @@
         display: none;
     }
 
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width:460px) and (max-width:765px) {
+    .imageskills {
+        display: none;
+    }
 }

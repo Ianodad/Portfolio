@@ -5,6 +5,8 @@ import NavbarTop from './navbar';
 
 import { useStaticQuery, graphql } from 'gatsby';
 
+import './css/menu.css';
+
 
 const TopMenu = ({ path }) => {
 	const data = useStaticQuery(graphql`
@@ -166,7 +168,7 @@ const TopMenu = ({ path }) => {
 	};
 
 	return (
-		<div className="top-bar ml-0 pl-0">
+		<div className="top-bar ml-0 pl-0 fixed-top overflow-hidden">
 			<NavbarTop className="ml-0 pl-0" icons={icons} logo={logo} path={path} />
 		</div>
 	);

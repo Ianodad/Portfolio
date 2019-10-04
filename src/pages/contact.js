@@ -10,8 +10,9 @@ import Headline from "../components/headline"
 const Contact = () => (
 	<Layout>
 		<SEO title="Contact" />
-		<div className="container-fluid blog" style={{ height: '35em' }}>
-			<div className="contact-form d-flex row align-items-center mx-auto" style={{ marginTop: '10em' }}>
+		<div className="container-fluid blog">
+			<div className="contact-body" >
+			<div className="contact-form d-flex row align-items-center mx-auto">
 				<div className="form-header col-md-12 mb-2 pb-2">
 					<h3 className="">
                       <Headline
@@ -89,6 +90,7 @@ const Contact = () => (
 				</div>
 				<div className="form-footer col-md-12" />
 			</div>
+		</div>
 		</div>
 	</Layout>
 );

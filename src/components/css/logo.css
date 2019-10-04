@@ -96,16 +96,44 @@ body {
     height: 160%;
 }
 
-@media only screen and (min-width:0px) and (max-width:768px) {
+@media screen and (max-width: 320px) {
     .homelogo svg {
-        height: 100%;
-        
-    }
-    .svgg{
-        width: 500px;
-        height: 500px;
+        height: 52%;
+        width: 145%;
+
     }
 }
-@media screen and (max-width: 320px) {
 
+
+@media only screen and (min-width:321px) and (max-width:460px) {
+    .homelogo svg {
+        margin-top: -125px;
+        position: absolute;
+        width: 137%;
+        height: 90%;
+    }
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width:460px) and (max-width:765px) {
+
+    .homelogo svg {
+        margin-left: -113px;
+        margin-top: -90px;
+        position: absolute;
+        width: 150%;
+        height: 120%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:765px) and (max-width:1224px) {
+     .homelogo svg {
+         margin-top: -125px;
+         position: absolute;
+         width: 140%;
+         height: 160%;
+     }
 }

@@ -128,7 +128,7 @@
     position: absolute;
     overflow: hidden;
     color: #ffcc00;
-    width: 100%;
+    width: 80%;
     z-index: 5;
     text-shadow: none;
     left: 49%;
@@ -595,77 +595,6 @@
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width:460px) and (max-width:765px) {
-    /* Styles */
-
-    .hi {
-        font-size: 6em;
-    }
-
-
-    .im,
-    .ian {
-        font-size: 4em;
-    }
-
-    .im {
-        margin-left: 0em;
-    }
-
-    /* margin space */
-    .ian {
-        margin-left: -0.7em;
-    }
-
-    .full,
-    .dev {
-        font-size: 3.5em;
-    }
-
-    /* .full {
-        margin-left: -0.7em;
-    } */
-
-    .dev {
-        margin-left: -4.1em;
-    }
-
-    #devhide {
-        display: none;
-    }
-
-    #devshow {
-        display: block;
-    }
-
-    .abouth,
-    .me,
-    .exp,
-    .project,
-     {
-        font-size: 4em;
-    }
-
-    .me {
-        margin-left: -1.2em;
-    }
-
-    /* .me{
-        display: none;
-    } */
-    .project {
-        margin-left: -12vw;
-    }
-    .contactme{
-        font-size: 3em;
-    }
-
-    .contactme {
-        margin-left: -0.4em;
-    }
-
-}
 
 /* Smartphones (landscape) ----------- */
 @media screen and (max-width: 320px) {
@@ -687,6 +616,10 @@
     /* margin space */
     .ian {
         margin-left: -1.7em;
+    }
+
+    .ian:before {
+        width: 60%;
     }
 
     .full,
@@ -721,6 +654,11 @@
     .project {
         margin-left: -45vw;
     }
+
+    .project:before {
+        width: 50%;
+    }
+
     .contactme {
         font-size: 2em;
     }
@@ -738,6 +676,9 @@
         font-size: 4em;
     }
 
+    /* .ian:before {
+        width: 70%;
+    } */
     .im {
         margin-left: -0.5em;
     }
@@ -788,6 +729,10 @@
         margin-left: -32vw;
     }
 
+    .project:before {
+        width: 50%;
+    }
+
     .contactme {
         font-size: 2.5em;
     }
@@ -797,9 +742,102 @@
     }
 }
 
-/* Desktops and laptops -----------
-@media screen and (max-width: 1224px) {
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width:460px) and (max-width:765px) {
+    /* Styles */
+
     .hi {
-        font-size: 10vw;
+        font-size: 6em;
     }
-} */
+
+     .ian:before {
+         width: 100%;
+     }
+
+    .im,
+    .ian {
+        font-size: 4em;
+    }
+
+
+    .ian:before {
+        width: 50%;
+    }
+
+
+    .im {
+        margin-left: 0em;
+    }
+
+    /* margin space */
+    .ian {
+        margin-left: -0.7em;
+    }
+
+    .ian:before {
+        width: 70%;
+    }
+
+    .full,
+    .dev {
+        font-size: 3.5em;
+    }
+
+    /* .full {
+        margin-left: -0.7em;
+    } */
+
+    .dev {
+        margin-left: -4.1em;
+    }
+
+    #devhide {
+        display: none;
+    }
+
+    #devshow {
+        display: block;
+    }
+
+    .abouth,
+    .me,
+    .exp,
+    .project,
+        {
+        font-size: 2.5em;
+    }
+
+    .me {
+        margin-left: -0.2em;
+    }
+
+    .me {
+        display: none;
+    }
+
+    .project {
+        margin-left: -2.2em;
+    }
+
+    .project:before {
+        width: 50%;
+    }
+
+    .contactme {
+        font-size: 3em;
+    }
+
+    .contactme {
+        margin-left: -0.4em;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:765px) and (max-width:1224px) {
+    .project {
+        margin-left: -1em;
+    }
+}

@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
 
         <div className="container-fluid px-0">
 
-          <div className="header  container-fluid  my-0 py-0 ml-0 pl-0">
+          <div className="header  container-fluid  my-0 py-0 ml-0 pl-0 overflow-hidden">
             <Header siteTitle={data.site.siteMetadata.title} author={data.site.siteMetadata.author} path={location} />
           </div>
           <div className="d-flex flex-row p-0 m-0">
@@ -43,8 +43,8 @@ const Layout = ({ children }) => {
             }}>
               <SideMenu path={location} />
             </div>
-            <div className="main-right container-fluid float-right">
-              <main className="container-fluid">{children}</main>
+            <div className="main-right container-fluid float-right overflow-hidden">
+              <main className="main-right-body container-fluid">{children}</main>
             </div>
           </div>
         </div>

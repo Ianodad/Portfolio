@@ -68,7 +68,7 @@ class Navbar extends Component {
 							/>
 						</a>
 					</StyleRoot>
-					<div className="navbar mx-0 px-0 mx-auto">
+					<div className="navbar icon mx-0 px-0 mx-auto">
 						{this.props.icons.map((icon) => (
 							<Link to={icon.link}>
 								<a

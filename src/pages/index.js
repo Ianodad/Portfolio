@@ -51,7 +51,7 @@ const IndexPage = () => (
   <SEO title="Home" />
   <StyleRoot>
     <SEO title="Home" />
-    <div className="container-fluid row main" style={{ height: "970px" }}>
+    <div className="container-fluid row main " style={{ height: "970px" }}>
       <div
         className = "col-md-6 col-lg-6 col-xl-6 col-sm-12 my-auto"
        

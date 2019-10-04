@@ -13,7 +13,7 @@ import Headline from "../components/headline"
 const Skills = () => (
 	<Layout>
   <SEO title="Skills" />
-  <div className="container-fluid my-skills row">
+  <div className="container-fluid my-skills row overflow-hidden">
   <div className="imageskills">
     <ImageSkills />
   </div>

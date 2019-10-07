@@ -4,15 +4,28 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import './css/contact.css';
 
+import Headline from "../components/headline"
+
+
 const Contact = () => (
 	<Layout>
 		<SEO title="Contact" />
-		<div className="container-fluid blog my-auto" style={{ width: '35em' }}>
-			<div className="contact-form d-flex row align-items-center mx-auto" style={{ marginTop: '10em' }}>
-				<div className="form-header col-md-12">
-					<h3 className="display-4 h1">Contact Me</h3>
+		<div className="container-fluid blog">
+			<div className="contact-body" >
+			<div className="contact-form d-flex row align-items-center mx-auto">
+				<div className="form-header col-md-12 mb-2 pb-2">
+					<h3 className="">
+                      <Headline
+                        id="contactme"
+                        name={"contactme"}
+                        headln={"Contact"}
+                        data={"T"}
+                    />
+					</h3>
+                    </div>
+					<div>
 				</div>
-				<div className="form-section row col-md-12">
+				<div className="form-section row col-md-12" style={{width:'250px'}}>
 					<form
 						className="w-70"
 						name="contact"
@@ -77,6 +90,7 @@ const Contact = () => (
 				</div>
 				<div className="form-footer col-md-12" />
 			</div>
+		</div>
 		</div>
 	</Layout>
 );

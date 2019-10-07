@@ -1,0 +1,7 @@
+/* Smartphones (landscape) ----------- */
+@media screen and (max-width: 360px) {
+    .top-bar {
+        width: 360px;
+    }
+
+}

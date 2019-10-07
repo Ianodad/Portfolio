@@ -1,6 +1,10 @@
+.contact-body{
+    margin-top: 10em;
+}
+
 .contact-form {
     height: 25em;
-    width: 25em;
+    width: 15em;
 }
 
 .contact-form input {
@@ -207,7 +211,63 @@
         margin-right: 2%;
         flex-grow: 1;
     }
+    
 }
+
+@media screen and (max-width: 320px) {
+
+    .contact-form input {
+        width: 15em
+    }
+    .contact-body {
+        margin-top:5em
+    }
+
+}
+@media only screen and (min-width:321px) and (max-width:460px) {
+
+    .contact-form input {
+        width: 15em
+    }
+    .contact-body {
+        margin-top: 5em;
+    }
+
+}
+
+@media only screen and (min-width:460px) and (max-width:765px) {
+
+    .contact-form input{
+        width: 20em
+
+    }
+    .contact-form {
+        margin-left: -30px;
+
+    }
+    .contact-body{
+        margin-left: -9em;
+    }
+
+     .contact-body {
+         margin-top: 6em;
+     }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:765px) and (max-width:1224px) {
+    .contact-body {
+        margin-left: -9em;
+    }
+    .contact-body {
+        margin-bottom: 10em;
+    }
+}
+
+
+
+
 
 /*
 Patreon

@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 import TopMenu from './topMenu';
+import './css/header.css';
+
 
 
 const Header = ({ siteTitle, path }) => (

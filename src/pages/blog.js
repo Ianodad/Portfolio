@@ -4,14 +4,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import './css/blog.css';
 
+import Headline from "../components/headline"
 
 const Blog = () => (
   <Layout>
     <SEO title="Blog" />
     <div className="container-fluid blog row">
-				<div className="align-center     mx-auto">
-					<h3 className="display-4 h1">COMING SOON!!</h3>
-				</div>
+				<div className="blog-header align-center  mx-auto">
+          <h1 contenteditable spellcheck="false">COMING SOON</h1>				
+        </div>
 			</div>
 
   </Layout>

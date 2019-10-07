@@ -11,3 +11,59 @@
     cursor: pointer;
 
 }
+
+/* Smartphones (landscape) ----------- */
+@media screen and (max-width: 320px) {
+    .navbar-brand {
+        display: none;
+
+    }
+
+    .navbarTop {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: inline;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+
+    a .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+
+    .icon{
+        idth: 315px
+    }
+}
+
+
+@media only screen and (min-width:321px) and (max-width:460px) {
+    .navbar-brand {
+        display: none;
+
+    }
+
+
+    .navbarTop {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    a .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

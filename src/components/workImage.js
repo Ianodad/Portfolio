@@ -43,8 +43,17 @@ const Work = () => {
 					}
 				}
 			},
+			jsonstore: file(relativePath: {
+				eq: "work/jsonstore.png"
+			}) {
+				childImageSharp {
+					fluid(maxWidth: 512, quality: 100) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			},
 			portfolio: file(relativePath: {
-				eq: "work/portfolio.png"
+				eq: "work/portfolio1.png"
 			}) {
 				childImageSharp {
 					fluid(maxWidth: 512, quality: 100) {
@@ -82,6 +91,14 @@ const Work = () => {
 			code: 'https://github.com/Ianodad/Tech_IT-e_commerce-',
 			website: 'http://ianodad.github.io/Tech_IT-e_commerce-/',
 			info: 'This is e-commerce based technology'
+
+		},
+		{
+			title: 'Jsonstore',
+			image: data.jsonstore.childImageSharp.fluid,
+			code: 'https://github.com/Ianodad/Jsonstore_with_json',
+			website: 'https://jsonstorewithjson.herokuapp.com/',
+			info: 'This is a api that can be used to call dummy data for front end development'
 
 		},
 		{

@@ -6,7 +6,6 @@ import './css/gallery.css';
 import Gallery from '../components/gallery'
 
 
-
 const Gallerypage = () => (
   <Layout>
     <SEO title="Photography" />

@@ -96,7 +96,8 @@ html {
     margin-top: 8px;
 }
 
-.card .info button {
+/* button */
+.card .info .code-btn {
     padding: 0.6rem;
     outline: none;
     border: none;
@@ -108,7 +109,25 @@ html {
     transition: 0.4s ease;
 }
 
-.card .info button:hover {
-    background: dodgerblue;
-    color: white;
+/* button */
+.card .info .web-btn {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.card .info .code-btn:hover {
+    background: #ffcc00;
+    color: #f40;
+}
+
+.card .info .web-btn:hover {
+    background: #f40;
+    color: #ffcc00);
 }

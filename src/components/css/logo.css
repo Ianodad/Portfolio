@@ -1,7 +1,139 @@
-.homelogo {
+/* Main styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+/* .homelogo {
     background-image: url(../../images/logobb.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 500px 500px;
     max-width: 100%;
+} */
+.homelogo {
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    /* background-size: 600px 600px; */
+    max-width: 120%;
+    /* background-size: 1em 100%; */
+    font: 26em/1 Open Sans, Impact;
+    /* text-transform: uppercase; */
+    margin: 0;
+
+}
+
+
+
+.text {
+    fill: none;
+    stroke-width: 5;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    animation: stroke 6s infinite linear;
+}
+
+.text:nth-child(5n + 1) {
+    stroke: #F2385A;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+}
+
+.text:nth-child(5n + 2) {
+    stroke: #F5A503;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+    stroke: #E9F1DF;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+    stroke: #56D9CD;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+    stroke: #3AA1BF;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+/* Other styles
+html,
+body {
+    height: 100%;
+} */
+
+/* body {
+    background: #111;
+    background-size: 0.2em 100%;
+    font: 5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+} */
+
+.homelogo svg {
+    margin-left: -80px;
+    margin-top: -90px;
+    position: absolute;
+    width: 120%;
+    height: 160%;
+}
+
+@media screen and (max-width: 320px) {
+    .homelogo svg {
+        height: 52%;
+        width: 145%;
+
+    }
+}
+
+
+@media only screen and (min-width:321px) and (max-width:460px) {
+    .homelogo svg {
+        margin-top: -125px;
+        position: absolute;
+        width: 137%;
+        height: 90%;
+    }
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width:460px) and (max-width:765px) {
+
+    .homelogo svg {
+        margin-left: -113px;
+        margin-top: -90px;
+        position: absolute;
+        width: 150%;
+        height: 120%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:765px) and (max-width:1224px) {
+     .homelogo svg {
+         margin-top: -125px;
+         position: absolute;
+         width: 140%;
+         height: 160%;
+     }
 }

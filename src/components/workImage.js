@@ -110,14 +110,10 @@ const Work = () => {
 
 		}
 	];
-	return ( <
-		div className = "work mx-0 px-0" >
-		<
-		Workout images = {
-			images
-		}
-		/> <
-		/div>
+	return (
+	<div className="work mx-0 px-0">
+		<Workout images={images} />
+  	</div>
 	);
 };
 

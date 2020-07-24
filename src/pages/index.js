@@ -43,7 +43,7 @@ const styles = {
 
 // adding i am
 const IM = "I'M";
-const FD = `FULLSTACK  DEVELOPER`
+// const FD = `FULLSTACK  DEVELOPER`
 
 const IndexPage = () => (
 	

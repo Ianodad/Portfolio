@@ -4,9 +4,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Work from '../components/workImage';
 
-import Headline from '../components/headline';
-
-const proj = "PROJECT "+"& "+"WORKS"
 
 const Workpage = () => (
 	<Layout>
